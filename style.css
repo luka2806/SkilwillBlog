@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0F172A;
+}
+
+header{
+    padding: 34px 0px;
+    margin-bottom: 94px;
+}
+
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.navigation li{
+    padding: 10px;
+}
+
+.navigation li a{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    color: #FFF7ED;
+    text-decoration: none;
+}
+
+h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56.25px;
+    color: #F8FAFC;
+
+}
+
+.second-container{
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+h2 span{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56.25px;
+    color: #16B8F3;
+}
+
+.title-1{
+    margin-bottom: 83px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+}
+
+.card{
+    background-color: #1E293B66;
+    border-radius: 20px;
+    padding: 34px 8px; 
+    display: flex; 
+    align-items: center;
+    gap: 44px;
+}
+.card > div{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.card h3{
+   font-size: 30px;
+   font-weight: 500;
+   line-height: 35.16px;
+   color: #F8FAFC;
+}
+.card p{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.44px;
+    color: #CBD5E1;
+}
+.resent-projects{
+    margin-bottom: 94px;
+}
+.third-container{
+    max-width: 1147px;
+    margin: 0 auto;
+}
+
+.title-2{
+    margin-bottom: 91px;
+}
+
+.small-cards{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.small-card{
+    background-color: #1E293B66;
+    border-radius: 20px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.pp{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+h4{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    color: #F8FAFC;
+}
+.small-title{
+    color: #88919b;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.44px;
+}
+.pp{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.44px;
+    text-align: center;
+    color: #F8FAFC;
+    max-width: 300px;
+}
+.last-projects{
+margin-bottom: 139px;
+}
+footer{
+    padding: 35px 0;
+    border-top: #CBD5E1 solid 1px;
+}
+.footer-p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23.44px;
+    color: #CBD5E1;
+}
+.soc{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.soc a {
+    padding: 5px;
+}
+
+
